@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="./assets/site-icons/fashion-logo.png" />
+    <title>Fashion Marketplace</title>
+</head>
+
+<body>
+    <div class="container-sign-in">
+        <header>
+        <nav class="d-flex align-center justify-between gap-40">
+            <a href="index.html" class="logo"><img src="./assets/images/header-logo.png" alt="header-logo"></a>
+            <ul class="header-nav d-flex align-center gap-40 weight-600">
+                <li><a href="#" class="nav-link">Home</a></li>
+                <li><a href="explore.html" class="nav-link">Explore</a></li>
+                <li><a href="#" class="nav-link">Personal Collection</a></li>
+                <li><a href="#" class="nav-link">Drops</a></li>
+                <li><a href="#" class="nav-link">More</a></li>
+            </ul>
+
+            <div class="nav-right d-flex align-center gap-20">
+                <div class="header-icons d-flex gap-20">
+                    <a href="#" class="icon-hover"><img src="./assets/icons/bell-icon.png" alt="bell-icon"></a>
+                    <a href="#" class="icon-hover"><img src="./assets/icons/message-icon.png" alt="message-icon"></a>
+                </div>
+                <a href="#" class="wallet-button d-flex weight-600">Wallet</a>
+                <a href="#" class="drop-down"><img src="./assets/icons/arrow-down.png" alt="arrow-down"></a>
+                <a href="./sign-in.html" class="profile-picture"><img src="./assets/icons/men-icon.png" alt="men-icon"></a>
+            </div>
+        </nav>
+    </header>
+        <section class="auth d-flex justify-center align-center">
+            <div class="auth-hero">
+                <img src="./assets/images/sign-in-main-img.png" alt="sign in img">
+                <h1 class="weight-700">Explore the world of meta fashion</h1>
+            </div>
+            <div class="sign-in d-flex flex-column">
+                <h2 class="weight-700 lh-100">Sign In</h2>
+                <p class="weight-500 lh-100">New user? <a class="lh-100 weight-500" href="sign-up.html">Create an
+                        account</a></p>
+                <form class="d-flex flex-column gap-10 align-flex-end">
+                    <input type="email" placeholder="Email Address">
+                    <button>Continue</button>
+                </form>
+                <span class="d-flex justify-center weight-400">Or</span>
+
+                <button class="social-btn social-btn-google d-flex align-center justify-center gap-10 weight-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                        <path
+                            d="M29.7083 12.0623H28.5V12H15V18H23.4773C22.2405 21.4928 18.9172 24 15 24C10.0297 24 6 19.9702 6 15C6 10.0297 10.0297 6 15 6C17.2943 6 19.3815 6.8655 20.9708 8.27925L25.2135 4.0365C22.5345 1.53975 18.951 0 15 0C6.71625 0 0 6.71625 0 15C0 23.2838 6.71625 30 15 30C23.2838 30 30 23.2838 30 15C30 13.9943 29.8965 13.0125 29.7083 12.0623Z"
+                            fill="#FFC107" />
+                        <path
+                            d="M1.72952 8.01825L6.65777 11.6325C7.99127 8.331 11.2208 6 15 6C17.2943 6 19.3815 6.8655 20.9708 8.27925L25.2135 4.0365C22.5345 1.53975 18.951 0 15 0C9.23852 0 4.24202 3.25275 1.72952 8.01825Z"
+                            fill="#FF3D00" />
+                        <path
+                            d="M14.9999 29.9995C18.8744 29.9995 22.3949 28.5168 25.0567 26.1055L20.4142 22.177C18.8576 23.3608 16.9555 24.0011 14.9999 23.9995C11.0984 23.9995 7.78568 21.5118 6.53768 18.04L1.64618 21.8088C4.12868 26.6665 9.17018 29.9995 14.9999 29.9995Z"
+                            fill="#4CAF50" />
+                        <path
+                            d="M29.7083 12.0623H28.5V12H15V18H23.4773C22.8857 19.6623 21.82 21.1149 20.412 22.1782L20.4142 22.1768L25.0568 26.1052C24.7283 26.4037 30 22.5 30 15C30 13.9943 29.8965 13.0125 29.7083 12.0623Z"
+                            fill="#1976D2" />
+                    </svg>
+                    Continue With Google
+                </button>
+
+                <button class="social-btn social-btn-facebook d-flex align-center justify-center gap-10 weight-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                        <path
+                            d="M30.0037 15.0938C30.0037 6.7575 23.2875 0 15.0037 0C6.71625 0.001875 0 6.7575 0 15.0956C0 22.6275 5.48625 28.8712 12.6562 30.0037V19.4569H8.85V15.0956H12.66V11.7675C12.66 7.98563 14.9006 5.89687 18.3263 5.89687C19.9687 5.89687 21.6844 6.19125 21.6844 6.19125V9.90375H19.7925C17.9306 9.90375 17.3494 11.0681 17.3494 12.2625V15.0938H21.5081L20.8444 19.455H17.3475V30.0019C24.5175 28.8694 30.0037 22.6256 30.0037 15.0938Z"
+                            fill="white" />
+                    </svg>
+                    Continue With Facebook
+                </button>
+
+                <button class="social-btn social-btn-apple d-flex align-center justify-center gap-10 weight-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="30" viewBox="0 0 26 30" fill="none">
+                        <path
+                            d="M21.1472 15.854C21.1327 13.3949 22.2509 11.5416 24.5089 10.1751C23.246 8.37227 21.3354 7.38072 18.8168 7.18962C16.4321 7.00213 13.8231 8.57419 12.8678 8.57419C11.8582 8.57419 9.54953 7.25453 7.73298 7.25453C3.9841 7.31222 0 10.2328 0 16.1749C0 17.9308 0.322057 19.7444 0.96617 21.6121C1.8274 24.0712 4.93217 30.0962 8.17083 29.9988C9.86434 29.9592 11.0621 28.8018 13.2658 28.8018C15.4044 28.8018 16.5117 29.9988 18.4007 29.9988C21.6683 29.952 24.4763 24.475 25.2941 22.0088C20.912 19.9499 21.1472 15.9801 21.1472 15.854V15.854ZM17.344 4.85678C19.1787 2.68619 19.0122 0.710309 18.9579 0C17.3368 0.0937464 15.4623 1.09972 14.3948 2.33645C13.2188 3.66332 12.5276 5.30388 12.676 7.15357C14.4274 7.28698 16.0268 6.38917 17.344 4.85678V4.85678Z"
+                            fill="white" />
+                    </svg>
+                    Continue With Apple
+                </button>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

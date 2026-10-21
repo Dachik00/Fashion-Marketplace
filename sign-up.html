@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="./assets/site-icons/fashion-logo.png" />
+    <title>Fashion Marketplace</title>
+</head>
+
+<body>
+    <div class="container-sign-up">
+        <header>
+            <nav class="d-flex align-center justify-between gap-40">
+                <a href="index.html" class="logo"><img src="./assets/images/header-logo.png" alt="header-logo"></a>
+                <ul class="header-nav d-flex align-center gap-40 weight-600">
+                    <li><a href="#" class="nav-link">Home</a></li>
+                    <li><a href="explore.html" class="nav-link">Explore</a></li>
+                    <li><a href="#" class="nav-link">Personal Collection</a></li>
+                    <li><a href="#" class="nav-link">Drops</a></li>
+                    <li><a href="#" class="nav-link">More</a></li>
+                </ul>
+
+                <div class="nav-right d-flex align-center gap-20">
+                    <div class="header-icons d-flex gap-20">
+                        <a href="#" class="icon-hover"><img src="./assets/icons/bell-icon.png" alt="bell-icon"></a>
+                        <a href="#" class="icon-hover"><img src="./assets/icons/message-icon.png"
+                                alt="message-icon"></a>
+                    </div>
+                    <a href="#" class="wallet-button d-flex weight-600">Wallet</a>
+                    <a href="#" class="drop-down"><img src="./assets/icons/arrow-down.png" alt="arrow-down"></a>
+                    <a href="./sign-in.html" class="profile-picture"><img src="./assets/icons/men-icon.png"
+                            alt="men-icon"></a>
+                </div>
+            </nav>
+        </header>
+        <section class="auth sign-up-section d-flex justify-center align-center gap-40">
+            <div class="auth-hero sign-up-hero">
+                <img src="./assets/images/sign-in-main-img.png" alt="sign in img">
+                <h1 class="weight-700">Begin your meta fashion journey here</h1>
+            </div>
+
+            <div class="sign-up-right">
+                <div class="first-input">
+                    <h2 class="weight-700">Sign Up</h2>
+                    <p class="weight-400 lh-100">Already a Member? <a href="sign-in.html">Sign In</a></p>
+                    <form>
+                        <input class="weight-400" type="email" placeholder="Email Address">
+                    </form>
+                </div>
+                <div class="second-input">
+                    <form class="d-flex gap-20">
+                        <input type="text" placeholder="Full Name">
+                        <input type="text" placeholder="Last Name">
+                    </form>
+                </div>
+                <div class="third-input">
+                    <form>
+                        <input type="text" placeholder="Password">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="14" viewBox="0 0 17 14" fill="none">
+                            <path
+                                d="M8.5 2.77524C10.6327 2.77524 12.3636 4.48661 12.3636 6.59526C12.3636 6.9849 12.2864 7.35926 12.1782 7.71071L14.5427 10.0486C15.6168 9.10883 16.4668 7.93227 17 6.58762C15.6632 3.24128 12.3636 0.865234 8.5 0.865234C7.51864 0.865234 6.57591 1.01803 5.68727 1.30072L7.36409 2.9586C7.72727 2.85164 8.10591 2.77524 8.5 2.77524ZM1.32136 0.223471C1.24973 0.294152 1.1929 0.378107 1.15412 0.470531C1.11534 0.562955 1.09538 0.662033 1.09538 0.762094C1.09538 0.862154 1.11534 0.961232 1.15412 1.05366C1.1929 1.14608 1.24973 1.23004 1.32136 1.30072L2.84364 2.8058C1.57476 3.7993 0.593795 5.10654 0 6.59526C1.33682 9.94924 4.63636 12.3253 8.5 12.3253C9.67455 12.3253 10.795 12.0961 11.8305 11.6988L13.9323 13.7769C14.0768 13.9197 14.2727 14 14.477 14C14.6814 14 14.8773 13.9197 15.0218 13.7769C15.1663 13.634 15.2475 13.4403 15.2475 13.2383C15.2475 13.0363 15.1663 12.8425 15.0218 12.6996L2.41864 0.223471C2.11727 -0.0744904 1.62273 -0.0744904 1.32136 0.223471ZM8.5 10.4153C6.36727 10.4153 4.63636 8.70391 4.63636 6.59526C4.63636 6.00698 4.77545 5.44926 5.015 4.96029L6.22818 6.15978C6.205 6.2973 6.18182 6.44246 6.18182 6.59526C6.18182 7.86351 7.21727 8.88727 8.5 8.88727C8.65454 8.88727 8.79364 8.86435 8.94045 8.83379L10.1536 10.0333C9.65136 10.2778 9.095 10.4153 8.5 10.4153ZM10.795 6.34314C10.7396 5.82695 10.5069 5.34515 10.1356 4.9781C9.76438 4.61105 9.27708 4.38095 8.755 4.32617L10.795 6.34314Z"
+                                fill="white" />
+                        </svg>
+                    </form>
+                </div>
+                <div class="fourth-input">
+                    <label class="dob-label d-flex gap-10 weight-400">Date Of Birth</label>
+                    <div class="dob-fields d-flex gap-10">
+                        <select required class="weight-500 d-flex gap-20">
+                            <option value="" disabled selected>Month</option>
+                            <option value="1">January</option>
+                            <option value="2">February</option>
+                            <option value="3">March</option>
+                            <option value="4">April</option>
+                            <option value="5">May</option>
+                            <option value="6">June</option>
+                            <option value="7">July</option>
+                            <option value="8">August</option>
+                            <option value="9">September</option>
+                            <option value="10">October</option>
+                            <option value="11">November</option>
+                            <option value="12">December</option>
+                        </select>
+                        <input type="number" placeholder="Day" min="1" max="31" required>
+                        <input type="number" placeholder="Year" min="1900" max="2026" required>
+                    </div>
+                </div>
+
+                <div class="create-button weight-500 d-flex justify-flex-end">
+                    <button class="create-btn">Create Account</button>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
