@@ -17,33 +17,44 @@
 
 <body>
     <header>
-        <nav class="d-flex align-center justify-between gap-40">
-            <a href="#" class="logo"><img src="./assets/images/header-logo.png" alt="header-logo"></a>
+    <nav class="d-flex align-center justify-between gap-40">
+        <a href="#" class="logo"><img src="./assets/images/header-logo.png" alt="header-logo"></a>
 
-            <form class="search-container" action="#">
-                <img class="search-btn" src="./assets/icons/search-icon.png" alt="search-icon">
-                <input type="text" placeholder="Search Items, Fashion, Collection and Users">
-            </form>
+        <form class="search-container" action="#">
+            <img class="search-btn" src="./assets/icons/search-icon.png" alt="search-icon">
+            <input type="text" placeholder="Search Items, Fashion, Collection and Users">
+        </form>
 
-            <ul class="header-nav d-flex align-center gap-40 weight-600">
-                <li><a href="#" class="nav-link">Home</a></li>
-                <li><a href="explore.html" class="nav-link">Explore</a></li>
-                <li><a href="#" class="nav-link">Personal Collection</a></li>
-                <li><a href="#" class="nav-link">Drops</a></li>
-                <li><a href="#" class="nav-link">More</a></li>
-            </ul>
+        <ul class="header-nav d-flex align-center gap-40 weight-600">
+            <li><a href="#" class="nav-link">Home</a></li>
+            <li><a href="explore.html" class="nav-link">Explore</a></li>
+            <li><a href="#" class="nav-link">Personal Collection</a></li>
+            <li><a href="#" class="nav-link">Drops</a></li>
+            <li class="more-menu">
+                <a href="#" class="nav-link more-link" aria-haspopup="true" aria-expanded="false">More <span class="more-arrow"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Stats</a></li>
+                    <li><a href="#">Shows</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Creator Studio</a></li>
+                    <li><a href="#">Edit Profile</a></li>
+                    <li><a href="#">Setting</a></li>
+                </ul>
+            </li>
+        </ul>
 
-            <div class="nav-right d-flex align-center gap-20">
-                <div class="header-icons d-flex gap-20">
-                    <a href="#" class="icon-hover"><img src="./assets/icons/bell-icon.png" alt="bell-icon"></a>
-                    <a href="#" class="icon-hover"><img src="./assets/icons/message-icon.png" alt="message-icon"></a>
-                </div>
-                <a href="#" class="wallet-button d-flex weight-600">Wallet</a>
-                <a href="#" class="drop-down"><img src="./assets/icons/arrow-down.png" alt="arrow-down"></a>
-                <a href="./sign-in.html" class="profile-picture"><img src="./assets/icons/men-icon.png" alt="men-icon"></a>
+        <div class="nav-right d-flex align-center gap-20">
+            <div class="header-icons d-flex gap-20">
+                <a href="#" class="icon-hover"><img src="./assets/icons/bell-icon.png" alt="bell-icon"></a>
+                <a href="#" class="icon-hover"><img src="./assets/icons/message-icon.png" alt="message-icon"></a>
             </div>
-        </nav>
-    </header>
+            <a href="#" class="wallet-button d-flex weight-600">Wallet</a>
+            <a href="#" class="drop-down"><img src="./assets/icons/arrow-down.png" alt="arrow-down"></a>
+            <a href="./sign-in.html" class="profile-picture"><img src="./assets/icons/men-icon.png" alt="men-icon"></a>
+        </div>
+    </nav>
+</header>
 
     <!-- Header-end////////////// -->
     <div class="container">
