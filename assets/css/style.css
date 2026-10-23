@@ -1808,3 +1808,27 @@ section.last-section {
     margin: 0 auto;
 
 }
+section.font-family{
+    .colection-button{
+        margin-bottom: 130px;
+        .buttons{
+            padding: 13px 59px;
+        }
+    }
+
+    h2{
+        font-family: var(--font-inter);
+        font-size: var(--font-60);
+        color: var(--white-p);
+        margin-bottom: 120px;
+    }
+}
+
+section.last-section{
+    h2.live-title{
+        font-family: var(--font-inter);
+        font-size: var(--font-30);
+        color: var(--white-p);
+        margin-bottom:16px;
+    }
+}
